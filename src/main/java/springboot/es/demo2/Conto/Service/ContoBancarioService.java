@@ -19,7 +19,7 @@ public class ContoBancarioService {
         return contoBancarioRepo.save(conto);
     }
     public ContoBancario updateConto(ContoBancario conto) {
-        return contoBancarioRepo.save(conto);
+       return contoBancarioRepo.save(conto);
     }
     public List<ContoBancario> getAllConti(){
         return contoBancarioRepo.findAll();
